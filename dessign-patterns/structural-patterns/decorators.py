@@ -4,7 +4,7 @@ from json import dumps
 
 def log(method):
     def wrapper(*args, **kwargs):
-        with open('app.log', 'a') as f:
+        with open('../app.log', 'a') as f:
             path = abspath('')
             try:
                 method(*args, **kwargs)
