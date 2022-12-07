@@ -1,0 +1,3 @@
+I am Gorka Zabarte Moreno,
+At the same time that I create a Python course,
+I am learning Python.
