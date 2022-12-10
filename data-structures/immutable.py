@@ -4,7 +4,7 @@ objects have its internal state. The fact that
 some of those do not allow the developer to change
 its state makes them immutable objects.
 
-Immutable objects are numbers, strings, tuples, frozenset
+Immutable objects are numbers, strings, tuples, frozenset, MappingProxyType
 User defined classes can be immutable
 """
 
