@@ -13,5 +13,6 @@ print(message)
 
 # 3) Change the string passed to the `print` function using a conditional expression
 for letter in name:
-    print(f'{letter} is a vowel') if letter.lower() in ["a", "e", "i", "o", "u"] \
-        else print(f'{letter} is a consonant')
+    print(
+        f"{letter} {'is a vowel' if letter.lower() in ['a', 'e', 'i', 'o', 'u'] else 'is a consonant'}"
+    )
