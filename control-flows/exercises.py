@@ -1,4 +1,4 @@
-name: str = 'Gorka'
+name: str = input('What is your name?')
 
 # 1) Call `print` with a different string using a single conditional expression
 print(f'{name} is longer than the avg name in the US') if len(name) >= 6 \

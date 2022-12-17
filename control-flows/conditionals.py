@@ -1,6 +1,5 @@
 """
-The return if statement is an if statement
-in a single line of code
+The if conditional expression
 """
 CONDITION = True
 var = 1 if CONDITION else 0
