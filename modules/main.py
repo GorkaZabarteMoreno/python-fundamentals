@@ -13,6 +13,11 @@ import helpers
 print('Extras module is being imported')
 import extras
 
+print('Hiding Entities module is being imported')
+from hiding_entities import *
+from hiding_entities import __all__
+
+print(__all__)
 
 print(f'The name of the module main.py is {__name__}')
 
