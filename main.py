@@ -1,6 +1,7 @@
-from packages.module1 import get_name
-from packages.module2 import get_height
-from packages import *
+from packages.src.packages.module1 import get_name
+from packages.src.packages.module2 import get_height
+from packages.src.packages import *
+from packages.src.packages import Point
 
 if __name__ == '__main__':
     app_name: str = 'Gorka App'
