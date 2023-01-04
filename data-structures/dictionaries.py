@@ -36,7 +36,6 @@ d1.setdefault('Age', 24)
 d3 = d1.copy()
 d1.clear()
 
-
 immutable_dict = MappingProxyType(
     {
         "Kevin": 9001,
@@ -45,3 +44,19 @@ immutable_dict = MappingProxyType(
 )
 
 
+def f(c: str):
+    if c == 'a':
+        return 1
+    elif c == 'b':
+        return 2
+    elif c == 'c':
+        return 3
+    else:
+        return -1
+
+
+def dict_comprehension(letters: tuple = ('a', 'b', 'c')):
+    return {letter: f(letter) for letter in letters}
+
+
+print(dict_comprehension())

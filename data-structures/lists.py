@@ -16,3 +16,10 @@ if 5 in l1:
     print('Operator in has O(n) complexity')
 l1.extend(t1)
 l1.count(0)
+
+
+def list_comprehension(n: int) -> list:
+    return [2 * num for num in range(n)]
+
+
+print(list_comprehension(10))
